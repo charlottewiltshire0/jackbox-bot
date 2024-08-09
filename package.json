@@ -1,0 +1,15 @@
+{
+  "name": "jackbox-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
