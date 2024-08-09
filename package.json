@@ -1,7 +1,6 @@
 {
   "name": "jackbox-bot",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
@@ -18,5 +17,6 @@
     "nodemon": "^3.1.4",
     "prettier": "3.3.3",
     "ts-node": "^10.9.2"
-  }
+  },
+  "type": "module"
 }
