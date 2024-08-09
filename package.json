@@ -4,12 +4,18 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts",
     "start:prod": "node dist/main"
   },
   "dependencies": {
     "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "prettier": "3.3.3"
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.3",
+    "ts-node": "^10.9.2"
   }
 }
